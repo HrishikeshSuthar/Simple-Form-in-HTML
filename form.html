@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Student Registration Form</title>
+
+    <style>
+        h1:hover{
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body style="text-align: left;">
+
+    <form>
+        
+            <h1>Personal Details</h1>
+            <b> Firstname</b> : <input type="text" name="Firstname" required placeholder="First name"><br><br>
+
+            <b>Lastname</b> : <input type="text" name="Lastname" required placeholder="Last name"><br><br>
+
+           <b>Date of birth</b>  : <input type="date" name="birth" required placeholder="Enter your DOB"><br><br>
+
+            <b>Password</b> : <input type="password" name="password" placeholder="Enter your password"><br><br>
+
+            <b>Email</b> : <input type="email" name="Email" required="@" placeholder="Enter your Email-ID"><br><br>
+
+            <b>Gender</b> : <input type="radio" name="Gender">Male
+            <input type="radio" name="Gender">Female
+            <input type="radio" name="Gender">Others<br><br>
+
+            <b>Mobile Number</b> : <input type="text" name="mobilenumber" maxlength="10" required="10"><br><br>
+            <b>Hobby</b> : <input type="checkbox" name="Hobby">reading
+            <input type="checkbox" name="Hobby">playing indoors games
+            <input type="checkbox" name="Hobby">playing outdoors games
+
+            <h1>Address : </h1>
+            <textarea name="message" rows="5" cols="50" required>
+            </textarea><br>
+
+            <h1>Qualification</h1>
+
+            <b>Your Qualification :-</b>
+            <select>
+                <option></option>
+                <option>Graduation</option>
+                <option>Post Graduation</option>
+                <option>class 10</option>
+                <option>class 12</option>
+            </select><br><br>
+            <b>Upload Marksheet :-</b>
+            <input type="file" name="marksheet"><br><br>
+
+            <b>Skills that you are comfortable with : </b>
+            <input type="checkbox" name="x">C
+            <input type="checkbox" name="x">C++
+            <input type="checkbox" name="x">JAVA
+            <input type="checkbox" name="x">Python
+            <input type="checkbox" name="x">SQL<br><br>
+            <b>Work Experience :</b> 
+            <input type="radio" name="y">1 year
+            <input type="radio" name="y">2 year
+            <input type="radio" name="y">3 year
+            <input type="radio" name="y">4 year<br><br>
+            <b>Extra certificate activities:</b>
+            <input type="file" name="marksheet" multiple><br><br>
+            <input type="submit" value="Submit"><br><br>
+            <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+
+</html>
